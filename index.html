@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* * {
+            margin: 0px;
+            padding: 0px;
+        } */
+
+        /* element */
+        /* body {
+            background-color: black;
+            color: white;
+        } */
+
+        /* div {
+            background-color: rgb(92, 229, 34);
+            color: black;
+            height: 150px;
+            width: 150px;
+            /* margin ,padding : 30px(all side) :   top right bottom left */
+        /* border: 2px solid white;
+            margin: 30px 30px 30px 30px;
+            padding: 10px;
+        } */
+
+        /* p {
+            color: aqua;
+        } */
+
+        /* div div {
+            background-color: yellow;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid blue;
+        } */
+
+        /*
+ element element  
+element 
+
+*/
+        /* element class */
+        /* div .box-1 {
+            color: rgb(0, 255, 42);
+            background-color: brown;
+            font-size: larger;
+            height: 150px;
+            width: 150px;
+        } */
+
+        /* element element */
+
+        /* div h1 {
+            color: yellow;
+            background-color: red;
+            font-size: x-large;
+            padding: 20px;
+            margin: 20px;
+        } */
+
+        /* element id */
+        /* div #heading {
+            color: yellow;
+            background-color: red;
+            font-size: x-large;
+            padding: 20px;
+            margin: 20px;
+        } */
+
+        /* element  */
+        /* div {
+            background-color: greenyellow;
+            color: black;
+            height: 200px;
+            width: 100%;
+            padding: 50px;
+        } */
+
+        /* element element */
+        /* div div {
+            background-color: red;
+            color: white;
+            height: 50px;
+            width: 50%;
+            margin-bottom: 10px;
+        } */
+
+        /* div h1 {
+            color: blue;
+        }
+
+        div .heading {
+            color: brown;
+        }
+
+        div div h1 {
+            color: chartreuse;
+        }
+
+        div p {
+            background-color: aqua;
+        } */
+
+
+        /* div p {
+            background-color: red;
+        }
+
+        div h1 {
+            background-color: aquamarine;
+        }
+
+        div span {
+            background-color: chocolate;
+        }
+
+        /* element child */
+        /* div>h2 {
+            background-color: yellow;
+        } */
+
+        /* h3+h4 {
+            background-color: aqua;
+        } */
+
+
+        /* div~h5 {
+            background-color: cornflowerblue;
+        }  */
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* div {
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 30px;
+        }
+
+        .box {
+            background-color: blue;
+        }
+
+        .A3 {
+            background-color: green !important;
+        } */
+
+        /* .box-3 {
+            font-size: xx-large;
+        }
+
+
+        #myDiv_id {
+            background-color: yellow;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <!-- element call html to css -->
+    <!-- <div>
+        this is my box
+    </div> -->
+
+    <!--  element with class  call html to css   -->
+
+    <style>
+        .box {
+            background-color: goldenrod;
+        }
+
+        .box-height {
+            height: 200px;
+        }
+
+        .box-width {
+            width: 200px;
+        }
+
+        #myId {
+            color: red;
+            background-color: yellow;
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+
+    <div>
+        this
+    </div>
+
+    <div class="box box-height box-width">
+        this is a class box
+    </div>
+
+    <!-- id box text color red back yellow h * w= 300px -->
+
+    <div id="myId">
+        this is ID box
+    </div>
+
+    <!-- element with id call html to css -->
+    <!-- <div class="box_ box-1 box-2 box A3" id="myDiv_id">
+        this is my id box
+    </div> -->
+
+
+    <!--parent child selector  (Descendant Selector) -->
+    <!-- <div>
+        <p>hello i am p tag</p>
+        <h1> hello i am h1 tag</h1>
+        <span>hello i am span tag</span>
+    </div> -->
+
+
+    <!-- parent inside targeted selector (Child Selector) -->
+    <!-- <div>
+        <h2>this is child selector</h2>
+        <h2>this is child selector</h2>
+    </div> -->
+
+    <!-- prev + next element  (Adjacent Sibling Selector)  -->
+
+    <!-- <h3>hello this is one</h3>
+
+    <h4>hello </h4>
+    <h4>hello </h4>
+    <h4>hello </h4> -->
+
+    <!-- prev ~ next  (General Sibling Selector) -->
+    <!-- <div> i am div</div>
+    <h5>i am h5</h5>
+    <h5>i am h5</h5>
+    <h5>i am h5</h5>
+    <h5>i am h5</h5> -->
+
+
+
+
+    <!-- <div>
+        <h1 class="head">hello</h1>
+        <p>hello this is a inline element</p>
+        <p>hello this is new new</p>
+        <div></div>
+        <div></div>
+    </div> -->
+
+
+    <!-- <div>
+        <div class="box-1">div 1</div>
+        <h1>hello world</h1>
+        <h1 id="">hello world</h1>
+    </div> -->
+
+
+    <!-- 
+    <div>wiasjvnasj</div>
+    <div>asdajklsdhasjkd</div>
+    <div>asdajklsdhasjkd</div>
+    <div>asdajklsdhasjkd</div>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, suscipit officia, ab aliquid amet quidem
+        similique dicta hic expedita ipsum consequuntur praesentium officiis eaque quos quia! Nobis voluptate beatae
+        officia!
+    </p>
+    <h1></h1>
+    <h2></h2>
+    <h3></h3> -->
+</body>
+
+</html>
